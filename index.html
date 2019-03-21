@@ -54,7 +54,7 @@
                         <td>' + (feature.properties['tipfare_ratio_count'] !== null ? Autolinker.link(String(feature.properties['tipfare_ratio_count'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Tipping Rate</th>\
+                        <th scope="row">Tip/Fare Ratio</th>\
                         <td>' + (feature.properties['tipfare_ratio_median'] !== null ? Autolinker.link(String(feature.properties['tipfare_ratio_median'])) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -145,7 +145,7 @@
         bounds_group.addLayer(layer_Hexes_With_Data_1);
         map.addLayer(layer_Hexes_With_Data_1);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Hexes_With_Data<br /><table><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_00000003030.png" /></td><td> 0.0000 - 0.0303 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_00303012001.png" /></td><td> 0.0303 - 0.1200 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_01200015532.png" /></td><td> 0.1200 - 0.1553 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_01553019053.png" /></td><td> 0.1553 - 0.1905 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_01905023294.png" /></td><td> 0.1905 - 0.2329 </td></tr></table>': layer_Hexes_With_Data_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'Tip/Fare Ratio<br /><table><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_00000003030.png" /></td><td> 0.0000 - 0.0303 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_00303012001.png" /></td><td> 0.0303 - 0.1200 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_01200015532.png" /></td><td> 0.1200 - 0.1553 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_01553019053.png" /></td><td> 0.1553 - 0.1905 </td></tr><tr><td style="text-align: center;"><img src="legend/Hexes_With_Data_1_01905023294.png" /></td><td> 0.1905 - 0.2329 </td></tr></table>': layer_Hexes_With_Data_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
         setBounds();
         </script>
     </body>
